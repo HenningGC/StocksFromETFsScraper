@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 def main():
 	url = 'https://seekingalpha.com/etfs-and-funds/etf-tables/themes_and_subsectors'
-	driver = webdriver.Chrome(r'C:\Users\Xxmet\OneDrive\Desktop\Other\chromedriver.exe')
+	driver = webdriver.Chrome(r'C:\Users\<>\chromedriver.exe')
 
 	driver.get(url)
 	driver.minimize_window()
